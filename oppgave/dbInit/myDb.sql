@@ -45,3 +45,10 @@ COMMIT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
+
+--
+-- Insert test data
+--
+INSERT INTO `user` (`uid`, `uname`, `pwd`, `firstName`, `lastName`) VALUES ('1', 'test@test.com', '1f66d81577cd95514cedc8504d65ec8eff9c336a', 'Test', 'Test'),
+('2', 'test2@test.com', '3fcba21eebd2d09681515b4849d2bbeae566451e', 'Test2', 'Test2');
